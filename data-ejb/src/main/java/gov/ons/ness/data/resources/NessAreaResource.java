@@ -41,7 +41,7 @@ public class NessAreaResource
 	public String getChildren(@PathParam("parentextcode") String parentExtcode)
 	{
 		// e.g.
-		// http://onsdatav2-glassfishtest.rhcloud.com/data-web/rs/nessdata/getchildren/E05002319
+		// http://onsdatav3-glassfishtest.rhcloud.com/data-web/rs/nessdata/getchildren/E05002319
 
 		logger.log(Level.INFO, "getChildren: parentExtcode = " + parentExtcode);
 
@@ -67,7 +67,7 @@ public class NessAreaResource
 	public String getParent(@PathParam("childextcode") String childExtcode)
 	{
 		// e.g.
-		// http://onsdatav2-glassfishtest.rhcloud.com/data-web/rs/nessdata/getparent/E00082600
+		// http://onsdatav3-glassfishtest.rhcloud.com/data-web/rs/nessdata/getparent/E00082600
 		// http://localhost:8080/data-web/rs/nessdata/getparent/E00082600
 
 		logger.log(Level.INFO, "getParent: childExtcode = " + childExtcode);
@@ -136,7 +136,7 @@ public class NessAreaResource
 	public String basicSearch(@QueryParam("term") String term)
 	{
 		// e.g.
-		// http://onsdatav2-glassfishtest.rhcloud.com/data-web/rs/nessdata/basicsearch?term=fareham
+		// http://onsdatav3-glassfishtest.rhcloud.com/data-web/rs/nessdata/basicsearch?term=fareham
 
 		logger.log(Level.INFO, "getWards: wardName = " + term);
 
@@ -176,7 +176,7 @@ public class NessAreaResource
 	{
 
 		// e.g.
-		// http://onsdatav2-glassfishtest.rhcloud.com/data-web/rs/nessdata/search?term=fareham
+		// http://onsdatav3-glassfishtest.rhcloud.com/data-web/rs/nessdata/search?term=fareham
 		// http://localhost:8080/data-web/rs/nessdata/search?term=felin
 		
 		logger.log(Level.INFO, "search: searchName = " + term);
@@ -240,7 +240,7 @@ public class NessAreaResource
 	      @PathParam("parentextcode") String parentExtcode)
 	{
 		// e.g.
-		// http://onsdatav2-glassfishtest.rhcloud.com/data-web/rs/nessdata/getchildrenextcode/E05002319
+		// http://onsdatav3-glassfishtest.rhcloud.com/data-web/rs/nessdata/getchildrenextcode/E05002319
 		// http://localhost:8080/data-web/rs/nessdata/getchildrenextcode/E05002319
 
 		logger.log(Level.INFO,
@@ -272,7 +272,7 @@ public class NessAreaResource
 	public String getPostCode(@PathParam("postcode") String postcode)
 	{
 		// e.g.
-		// http://onsdatav2-glassfishtest.rhcloud.com/data-web/rs/nessdata/getpostcode/po138js
+		// http://onsdatav3-glassfishtest.rhcloud.com/data-web/rs/nessdata/getpostcode/po138js
 		// http://localhost:8080/data-web/rs/nessdata/getpostcode/po138js
 
 		logger.log(Level.INFO, "getPostCode: postcode = " + postcode);
@@ -343,7 +343,7 @@ public class NessAreaResource
 	public String getEnvelope(@PathParam("extcode") String extcode)
 	{
 		// e.g.
-		// http://onsdatav2-glassfishtest.rhcloud.com/data-web/rs/nessdata/getenvelope/E00082600
+		// http://onsdatav3-glassfishtest.rhcloud.com/data-web/rs/nessdata/getenvelope/E00082600
 		// http://localhost:8080/data-web/rs/nessdata/getenvelope/E00082600
 
 		logger.log(Level.INFO, "getEnvelope: extcode = " + extcode);
