@@ -1,0 +1,17 @@
+target
+.settings/*
+!.settings/.jsdtscope
+.project
+.classpath
+/.settings
+/data-ear/.settings
+/data-ear/target/*
+/data-ear/.project
+/data-ejb/.settings
+/data-ejb/target/*
+/data-ejb/.classpath
+/data-ejb/.project
+/data-web/.settings
+/data-web/target/*
+/data-web/.classpath
+/data-web/.project
